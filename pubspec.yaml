@@ -1,0 +1,26 @@
+name: ahalia_sports_bot
+description: Ahalia Sports Bot Application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_animate: ^4.5.2
+  intl: ^0.20.2
+  google_fonts: ^6.1.0
+  speech_to_text: ^7.0.0
+  permission_handler: ^11.3.0
+  flutter_tts: ^3.8.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
